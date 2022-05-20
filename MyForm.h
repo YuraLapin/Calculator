@@ -12,7 +12,7 @@ namespace Calculator
 	using namespace System::Drawing;
 
 	/// <summary>
-	/// Сводка для MyForm
+	/// РЎРІРѕРґРєР° РґР»СЏ MyForm
 	/// </summary>
 	public ref class MyForm : public System::Windows::Forms::Form
 	{
@@ -21,13 +21,13 @@ namespace Calculator
 		{
 			InitializeComponent();
 			//
-			//TODO: добавьте код конструктора
+			//TODO: РґРѕР±Р°РІСЊС‚Рµ РєРѕРґ РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂР°
 			//
 		}
 
 	protected:
 		/// <summary>
-		/// Освободить все используемые ресурсы.
+		/// РћСЃРІРѕР±РѕРґРёС‚СЊ РІСЃРµ РёСЃРїРѕР»СЊР·СѓРµРјС‹Рµ СЂРµСЃСѓСЂСЃС‹.
 		/// </summary>
 		~MyForm()
 		{
@@ -122,14 +122,14 @@ namespace Calculator
 
 	private:
 		/// <summary>
-		/// Обязательная переменная конструктора.
+		/// РћР±СЏР·Р°С‚РµР»СЊРЅР°СЏ РїРµСЂРµРјРµРЅРЅР°СЏ РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂР°.
 		/// </summary>
 		System::ComponentModel::Container ^components;
 
 #pragma region Windows Form Designer generated code
 		/// <summary>
-		/// Требуемый метод для поддержки конструктора — не изменяйте 
-		/// содержимое этого метода с помощью редактора кода.
+		/// РўСЂРµР±СѓРµРјС‹Р№ РјРµС‚РѕРґ РґР»СЏ РїРѕРґРґРµСЂР¶РєРё РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂР° вЂ” РЅРµ РёР·РјРµРЅСЏР№С‚Рµ 
+		/// СЃРѕРґРµСЂР¶РёРјРѕРµ СЌС‚РѕРіРѕ РјРµС‚РѕРґР° СЃ РїРѕРјРѕС‰СЊСЋ СЂРµРґР°РєС‚РѕСЂР° РєРѕРґР°.
 		/// </summary>
 		void InitializeComponent(void)
 		{
@@ -433,7 +433,7 @@ namespace Calculator
 			this->label10->Name = L"label10";
 			this->label10->Size = System::Drawing::Size(475, 31);
 			this->label10->TabIndex = 26;
-			this->label10->Text = L"Калькулятор многочленов 8 степени";
+			this->label10->Text = L"РљР°Р»СЊРєСѓР»СЏС‚РѕСЂ РјРЅРѕРіРѕС‡Р»РµРЅРѕРІ 8 СЃС‚РµРїРµРЅРё";
 			// 
 			// comboBox2
 			// 
@@ -899,7 +899,7 @@ namespace Calculator
 			this->button1->Name = L"button1";
 			this->button1->Size = System::Drawing::Size(167, 51);
 			this->button1->TabIndex = 66;
-			this->button1->Text = L"Результат";
+			this->button1->Text = L"Р РµР·СѓР»СЊС‚Р°С‚";
 			this->button1->UseVisualStyleBackColor = false;
 			this->button1->Click += gcnew System::EventHandler(this, &MyForm::button1_Click);
 			// 
@@ -914,7 +914,7 @@ namespace Calculator
 			this->button2->Name = L"button2";
 			this->button2->Size = System::Drawing::Size(167, 30);
 			this->button2->TabIndex = 67;
-			this->button2->Text = L"Сброс";
+			this->button2->Text = L"РЎР±СЂРѕСЃ";
 			this->button2->UseVisualStyleBackColor = false;
 			this->button2->Click += gcnew System::EventHandler(this, &MyForm::button2_Click);
 			// 
@@ -1138,7 +1138,7 @@ namespace Calculator
 			this->comboBox1->DropDownStyle = System::Windows::Forms::ComboBoxStyle::DropDownList;
 			this->comboBox1->FlatStyle = System::Windows::Forms::FlatStyle::Flat;
 			this->comboBox1->FormattingEnabled = true;
-			this->comboBox1->Items->AddRange(gcnew cli::array< System::Object^  >(2) { L"РУС", L"ENG" });
+			this->comboBox1->Items->AddRange(gcnew cli::array< System::Object^  >(2) { L"Р РЈРЎ", L"ENG" });
 			this->comboBox1->Location = System::Drawing::Point(1013, 19);
 			this->comboBox1->Name = L"comboBox1";
 			this->comboBox1->Size = System::Drawing::Size(79, 23);
@@ -1234,7 +1234,7 @@ namespace Calculator
 				static_cast<System::Byte>(204)));
 			this->Icon = (cli::safe_cast<System::Drawing::Icon^>(resources->GetObject(L"$this.Icon")));
 			this->Name = L"MyForm";
-			this->Text = L"Калькулятор многочленов 8 степени";
+			this->Text = L"РљР°Р»СЊРєСѓР»СЏС‚РѕСЂ РјРЅРѕРіРѕС‡Р»РµРЅРѕРІ 8 СЃС‚РµРїРµРЅРё";
 			this->Load += gcnew System::EventHandler(this, &MyForm::MyForm_Load);
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->EndInit();
 			this->ResumeLayout(false);
@@ -1243,10 +1243,10 @@ namespace Calculator
 		}
 #pragma endregion
 
-		//Обработка нажатия на кнопку результат 
+		//РћР±СЂР°Р±РѕС‚РєР° РЅР°Р¶Р°С‚РёСЏ РЅР° РєРЅРѕРїРєСѓ СЂРµР·СѓР»СЊС‚Р°С‚ 
 		private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e)
 		{
-			//Коэффициенты первого многочлена
+			//РљРѕСЌС„С„РёС†РёРµРЅС‚С‹ РїРµСЂРІРѕРіРѕ РјРЅРѕРіРѕС‡Р»РµРЅР°
 			int x0_1;
 			int x1_1;
 			int x2_1;
@@ -1257,7 +1257,7 @@ namespace Calculator
 			int x7_1;
 			int x8_1;
 
-			//Коэффициенты второго многочлена
+			//РљРѕСЌС„С„РёС†РёРµРЅС‚С‹ РІС‚РѕСЂРѕРіРѕ РјРЅРѕРіРѕС‡Р»РµРЅР°
 			int x0_2;
 			int x1_2;
 			int x2_2;
@@ -1268,7 +1268,7 @@ namespace Calculator
 			int x7_2;
 			int x8_2;
 
-			//Коэффициенты результата
+			//РљРѕСЌС„С„РёС†РёРµРЅС‚С‹ СЂРµР·СѓР»СЊС‚Р°С‚Р°
 			int x0_3;
 			int x1_3;
 			int x2_3;
@@ -1288,7 +1288,7 @@ namespace Calculator
 			int x15_3;
 			int x16_3;
 
-			//Занесение коэффициентов в переменные (или 0, если ничего не введено)
+			//Р—Р°РЅРµСЃРµРЅРёРµ РєРѕСЌС„С„РёС†РёРµРЅС‚РѕРІ РІ РїРµСЂРµРјРµРЅРЅС‹Рµ (РёР»Рё 0, РµСЃР»Рё РЅРёС‡РµРіРѕ РЅРµ РІРІРµРґРµРЅРѕ)
 			if (textBox5->Text == "")
 				x0_1 = 0;
 			else
@@ -1381,10 +1381,10 @@ namespace Calculator
 			else
 				x8_2 = System::Convert::ToInt32(textBox18->Text);
 
-			//Если Выбран сложение
+			//Р•СЃР»Рё Р’С‹Р±СЂР°РЅ СЃР»РѕР¶РµРЅРёРµ
 			if (comboBox2->SelectedItem == "+")
 			{
-				//Присвоение коэффициентов результата
+				//РџСЂРёСЃРІРѕРµРЅРёРµ РєРѕСЌС„С„РёС†РёРµРЅС‚РѕРІ СЂРµР·СѓР»СЊС‚Р°С‚Р°
 				x0_3 = x0_1 + x0_2;
 				x1_3 = x1_1 + x1_2;
 				x2_3 = x2_1 + x2_2;
@@ -1395,7 +1395,7 @@ namespace Calculator
 				x7_3 = x7_1 + x7_2;
 				x8_3 = x8_1 + x8_2;
 
-				//Вывод результата
+				//Р’С‹РІРѕРґ СЂРµР·СѓР»СЊС‚Р°С‚Р°
 				textBox27->Text = System::Convert::ToString(x8_3);
 				textBox26->Text = System::Convert::ToString(x7_3);
 				textBox25->Text = System::Convert::ToString(x6_3);
@@ -1406,7 +1406,7 @@ namespace Calculator
 				textBox20->Text = System::Convert::ToString(x1_3);
 				textBox19->Text = System::Convert::ToString(x0_3);
 
-				//Выставление пустых значений в незадействованных ячейках результата
+				//Р’С‹СЃС‚Р°РІР»РµРЅРёРµ РїСѓСЃС‚С‹С… Р·РЅР°С‡РµРЅРёР№ РІ РЅРµР·Р°РґРµР№СЃС‚РІРѕРІР°РЅРЅС‹С… СЏС‡РµР№РєР°С… СЂРµР·СѓР»СЊС‚Р°С‚Р°
 				textBox36->Text = "";
 				textBox35->Text = "";
 				textBox34->Text = "";
@@ -1416,7 +1416,7 @@ namespace Calculator
 				textBox30->Text = "";
 				textBox29->Text = "";
 
-				//Прячет незадействованные ячейки результата
+				//РџСЂСЏС‡РµС‚ РЅРµР·Р°РґРµР№СЃС‚РІРѕРІР°РЅРЅС‹Рµ СЏС‡РµР№РєРё СЂРµР·СѓР»СЊС‚Р°С‚Р°
 				textBox36->Visible = 0;
 				textBox35->Visible = 0;
 				textBox34->Visible = 0;
@@ -1426,7 +1426,7 @@ namespace Calculator
 				textBox30->Visible = 0;
 				textBox29->Visible = 0;
 
-				//Прячет незадействованную часть итогового многочлена 
+				//РџСЂСЏС‡РµС‚ РЅРµР·Р°РґРµР№СЃС‚РІРѕРІР°РЅРЅСѓСЋ С‡Р°СЃС‚СЊ РёС‚РѕРіРѕРІРѕРіРѕ РјРЅРѕРіРѕС‡Р»РµРЅР° 
 				label38->Visible = 0;
 				label37->Visible = 0;
 				label36->Visible = 0;
@@ -1438,10 +1438,10 @@ namespace Calculator
 				label30->Visible = 0;
 			}
 
-			//Если выбрано вычитание
+			//Р•СЃР»Рё РІС‹Р±СЂР°РЅРѕ РІС‹С‡РёС‚Р°РЅРёРµ
 			else if (comboBox2->SelectedItem == "-")
 			{
-				//Присвоение коэффициентов результата
+				//РџСЂРёСЃРІРѕРµРЅРёРµ РєРѕСЌС„С„РёС†РёРµРЅС‚РѕРІ СЂРµР·СѓР»СЊС‚Р°С‚Р°
 				x0_3 = x0_1 - x0_2;
 				x1_3 = x1_1 - x1_2;
 				x2_3 = x2_1 - x2_2;
@@ -1452,7 +1452,7 @@ namespace Calculator
 				x7_3 = x7_1 - x7_2;
 				x8_3 = x8_1 - x8_2;
 
-				//Вывод результата
+				//Р’С‹РІРѕРґ СЂРµР·СѓР»СЊС‚Р°С‚Р°
 				textBox27->Text = System::Convert::ToString(x8_3);
 				textBox26->Text = System::Convert::ToString(x7_3);
 				textBox25->Text = System::Convert::ToString(x6_3);
@@ -1463,7 +1463,7 @@ namespace Calculator
 				textBox20->Text = System::Convert::ToString(x1_3);
 				textBox19->Text = System::Convert::ToString(x0_3);
 
-				//Выставление пустых значений в незадействованных ячейках результата
+				//Р’С‹СЃС‚Р°РІР»РµРЅРёРµ РїСѓСЃС‚С‹С… Р·РЅР°С‡РµРЅРёР№ РІ РЅРµР·Р°РґРµР№СЃС‚РІРѕРІР°РЅРЅС‹С… СЏС‡РµР№РєР°С… СЂРµР·СѓР»СЊС‚Р°С‚Р°
 				textBox36->Text = "";
 				textBox35->Text = "";
 				textBox34->Text = "";
@@ -1473,7 +1473,7 @@ namespace Calculator
 				textBox30->Text = "";
 				textBox29->Text = "";
 
-				//Прячет незадействованные ячейки результата
+				//РџСЂСЏС‡РµС‚ РЅРµР·Р°РґРµР№СЃС‚РІРѕРІР°РЅРЅС‹Рµ СЏС‡РµР№РєРё СЂРµР·СѓР»СЊС‚Р°С‚Р°
 				textBox36->Visible = 0;
 				textBox35->Visible = 0;
 				textBox34->Visible = 0;
@@ -1483,7 +1483,7 @@ namespace Calculator
 				textBox30->Visible = 0;
 				textBox29->Visible = 0;
 
-				//Прячет незадействованную часть итогового многочлена 
+				//РџСЂСЏС‡РµС‚ РЅРµР·Р°РґРµР№СЃС‚РІРѕРІР°РЅРЅСѓСЋ С‡Р°СЃС‚СЊ РёС‚РѕРіРѕРІРѕРіРѕ РјРЅРѕРіРѕС‡Р»РµРЅР° 
 				label38->Visible = 0;
 				label37->Visible = 0;
 				label36->Visible = 0;
@@ -1497,7 +1497,7 @@ namespace Calculator
 
 			else if (comboBox2->SelectedItem == "*")
 			{
-				//Присвоение коэффициентов результата
+				//РџСЂРёСЃРІРѕРµРЅРёРµ РєРѕСЌС„С„РёС†РёРµРЅС‚РѕРІ СЂРµР·СѓР»СЊС‚Р°С‚Р°
 				x0_3 = x0_1 * x0_2;
 				x1_3 = x1_1 * x0_2 + x0_1 * x1_2;
 				x2_3 = x2_1 * x0_2 + x1_1 * x1_2 + x0_1 * x2_2;
@@ -1517,7 +1517,7 @@ namespace Calculator
 				x15_3 = x8_1 * x7_2 + x7_1 * x8_2;
 				x16_3 = x8_1 * x8_2;
 
-				//Вывод результата
+				//Р’С‹РІРѕРґ СЂРµР·СѓР»СЊС‚Р°С‚Р°
 				textBox36->Text = System::Convert::ToString(x16_3);
 				textBox35->Text = System::Convert::ToString(x15_3);
 				textBox34->Text = System::Convert::ToString(x14_3);
@@ -1537,7 +1537,7 @@ namespace Calculator
 				textBox20->Text = System::Convert::ToString(x1_3);
 				textBox19->Text = System::Convert::ToString(x0_3);
 
-				//Показывает задействованные только в умножении коэффициенты
+				//РџРѕРєР°Р·С‹РІР°РµС‚ Р·Р°РґРµР№СЃС‚РІРѕРІР°РЅРЅС‹Рµ С‚РѕР»СЊРєРѕ РІ СѓРјРЅРѕР¶РµРЅРёРё РєРѕСЌС„С„РёС†РёРµРЅС‚С‹
 				textBox36->Visible = 1;
 				textBox35->Visible = 1;
 				textBox34->Visible = 1;
@@ -1547,7 +1547,7 @@ namespace Calculator
 				textBox30->Visible = 1;
 				textBox29->Visible = 1;
 
-				//Показывает задействованную только в умножении часть многочлена
+				//РџРѕРєР°Р·С‹РІР°РµС‚ Р·Р°РґРµР№СЃС‚РІРѕРІР°РЅРЅСѓСЋ С‚РѕР»СЊРєРѕ РІ СѓРјРЅРѕР¶РµРЅРёРё С‡Р°СЃС‚СЊ РјРЅРѕРіРѕС‡Р»РµРЅР°
 				label38->Visible = 1;
 				label37->Visible = 1;
 				label36->Visible = 1;
@@ -1558,17 +1558,17 @@ namespace Calculator
 				label31->Visible = 1;
 				label30->Visible = 1;
 			}
-			//Если не выбрана никакая операция
+			//Р•СЃР»Рё РЅРµ РІС‹Р±СЂР°РЅР° РЅРёРєР°РєР°СЏ РѕРїРµСЂР°С†РёСЏ
 			else
 			{
-				MessageBox::Show("Выберите операцию", "Не выбрана операция");
+				MessageBox::Show("Р’С‹Р±РµСЂРёС‚Рµ РѕРїРµСЂР°С†РёСЋ", "РќРµ РІС‹Р±СЂР°РЅР° РѕРїРµСЂР°С†РёСЏ");
 			}
 		}
 
-		//Обработка нажатия на кнопку сброса
+		//РћР±СЂР°Р±РѕС‚РєР° РЅР°Р¶Р°С‚РёСЏ РЅР° РєРЅРѕРїРєСѓ СЃР±СЂРѕСЃР°
 		private: System::Void button2_Click(System::Object^ sender, System::EventArgs^ e)
 		{
-			//Опустошает все коэффициенты
+			//РћРїСѓСЃС‚РѕС€Р°РµС‚ РІСЃРµ РєРѕСЌС„С„РёС†РёРµРЅС‚С‹
 			textBox36->Text = "";
 			textBox35->Text = "";
 			textBox34->Text = "";
@@ -1605,7 +1605,7 @@ namespace Calculator
 			textBox2->Text = "";
 			textBox1->Text = "";
 
-			//Прячет незадействованные в сложении и вычитании коэффициенты
+			//РџСЂСЏС‡РµС‚ РЅРµР·Р°РґРµР№СЃС‚РІРѕРІР°РЅРЅС‹Рµ РІ СЃР»РѕР¶РµРЅРёРё Рё РІС‹С‡РёС‚Р°РЅРёРё РєРѕСЌС„С„РёС†РёРµРЅС‚С‹
 			textBox36->Visible = 0;
 			textBox35->Visible = 0;
 			textBox34->Visible = 0;
@@ -1615,7 +1615,7 @@ namespace Calculator
 			textBox30->Visible = 0;
 			textBox29->Visible = 0;
 
-			//Прячет незадействованную в сложении и вычитании часть многочлена
+			//РџСЂСЏС‡РµС‚ РЅРµР·Р°РґРµР№СЃС‚РІРѕРІР°РЅРЅСѓСЋ РІ СЃР»РѕР¶РµРЅРёРё Рё РІС‹С‡РёС‚Р°РЅРёРё С‡Р°СЃС‚СЊ РјРЅРѕРіРѕС‡Р»РµРЅР°
 			label38->Visible = 0;
 			label37->Visible = 0;
 			label36->Visible = 0;
@@ -1632,7 +1632,7 @@ namespace Calculator
 
 		}
 
-		//Запрет на ввод любых символов, кроме цифр в текстовые поля
+		//Р—Р°РїСЂРµС‚ РЅР° РІРІРѕРґ Р»СЋР±С‹С… СЃРёРјРІРѕР»РѕРІ, РєСЂРѕРјРµ С†РёС„СЂ РІ С‚РµРєСЃС‚РѕРІС‹Рµ РїРѕР»СЏ
 		private: System::Void textBox1_TextChanged_1(System::Object^ sender, System::EventArgs^ e)
 		{
 			String^ fin;
@@ -1815,24 +1815,24 @@ namespace Calculator
 			textBox10->Text = fin;
 		}
 
-		//Выставление значений по умолчанию для операции и для языка
+		//Р’С‹СЃС‚Р°РІР»РµРЅРёРµ Р·РЅР°С‡РµРЅРёР№ РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ РґР»СЏ РѕРїРµСЂР°С†РёРё Рё РґР»СЏ СЏР·С‹РєР°
 		private: System::Void MyForm_Load(System::Object^ sender, System::EventArgs^ e)
 		{
 			comboBox1->SelectedIndex = 0;
-			comboBox1->SelectedItem = "РУС";
+			comboBox1->SelectedItem = "Р РЈРЎ";
 
 			comboBox2->SelectedIndex = 0;
 			comboBox2->SelectedItem = "+";
 		}
 
-		//Обработка смены языка
+		//РћР±СЂР°Р±РѕС‚РєР° СЃРјРµРЅС‹ СЏР·С‹РєР°
 		private: System::Void comboBox1_SelectedIndexChanged(System::Object^ sender, System::EventArgs^ e)
 		{
-			if (comboBox1->SelectedItem == "РУС")
+			if (comboBox1->SelectedItem == "Р РЈРЎ")
 			{
-				button1->Text = "Результат";
-				button2->Text = "Сброс";
-				label10->Text = "Кальулятор многочленов 8 степени";
+				button1->Text = "Р РµР·СѓР»СЊС‚Р°С‚";
+				button2->Text = "РЎР±СЂРѕСЃ";
+				label10->Text = "РљР°Р»СЊСѓР»СЏС‚РѕСЂ РјРЅРѕРіРѕС‡Р»РµРЅРѕРІ 8 СЃС‚РµРїРµРЅРё";
 			}
 			else if (comboBox1->SelectedItem == "ENG")
 			{
